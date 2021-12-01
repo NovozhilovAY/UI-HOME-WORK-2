@@ -1,0 +1,83 @@
+.mainPanel {
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(220, 220, 220);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-color: rgb(160,160,160);
+    border-width: 1px;
+    border-style: solid;
+}
+.inputP {
+
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    text-align: center;
+}
+
+#solveButton{
+    width: 100%;
+}
+
+input.inputPanel {
+    width: 25px;
+    text-align: right;
+}
+
+.coeffCell {
+    border-style: solid;
+    width: 10%;
+    border-width: 1px;
+}
+
+.answerCell {
+    border-style: solid;
+    width: auto;
+    border-width: 1px;
+}
+
+.coeffTh {
+    border-style: solid;
+    width: 10%;
+    border-width: 2px;
+    background-color: rgb(240, 240, 240);
+}
+
+.answerTh {
+    border-style: solid;
+    width: auto;
+    border-width: 2px;
+    background-color: rgb(240, 240, 240);
+}
+
+.evenRow {
+    background-color: #fff19e;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.oddRow {
+    background-color: azure;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.answerTable {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    border-style: solid;
+    border-collapse: collapse;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}

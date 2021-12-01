@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>Решение квадратного уравнения</title>
+</head>
+<body>
+<div class="mainPanel">
+    <div class="inputP">
+        <input id = "A" placeholder="A" class="inputPanel">
+        X^2 +
+        <input id="B" placeholder="B" class="inputPanel">
+        X +
+        <input id="C" placeholder="C" class="inputPanel">
+        = 0
+    </div>
+    <div class="inputP">
+        <input id = "solveButton" type="button" value="Решить" onclick="solveSquareEquation()">
+    </div>
+</div>
+    <table id = "answerTable" class="answerTable">
+        <caption>История подсчетов</caption>
+        <tr><th class="coeffTh">A</th><th class="coeffTh">B</th><th class="coeffTh">C</th><th class="answerTh">Корни</th></tr>
+    </table>
+
+</body>
+</html>
